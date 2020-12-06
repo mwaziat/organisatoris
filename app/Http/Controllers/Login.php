@@ -8,6 +8,6 @@ class Login extends Controller
 {
     public function index()
     {
-        echo "this index page";
+        return view('welcome');
     }
 }
