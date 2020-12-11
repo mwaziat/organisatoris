@@ -8,6 +8,15 @@ class Login extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        $data = [
+            'webTitle' => 'My Organisasi',
+            'title'     => 'Login'
+        ];
+        return view('login', $data);
+    }
+
+    public function forget()
+    {
+        # code...
     }
 }

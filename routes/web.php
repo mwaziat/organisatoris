@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Login;
+use App\Http\Controllers\Dashboard;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('/login', [Login::class, 'index']);
-// Route::get('login', 'Login@index');
+Route::get('/forget_password', [Login::class, 'forget']);
+Route::get('/dashboard', [Dashboard::class, 'index']);
