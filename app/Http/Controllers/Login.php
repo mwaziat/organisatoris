@@ -12,7 +12,7 @@ class Login extends Controller
             'webTitle' => 'My Organisasi',
             'title'     => 'Login'
         ];
-        return view('login', $data);
+        return view('login.login', $data);
     }
 
     public function forget()

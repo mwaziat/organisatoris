@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$title.' | '.$webTitle}}</title>
     <link rel="stylesheet" href="{{ asset('adminpage/dist/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('adminpage/plugin/fontawesome/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('adminpage/vendor/fontawesome/css/all.min.css')}}">
     <link rel="stylesheet" href="{{ asset('adminpage/custom/custom.css')}}">
 </head>
 <body>

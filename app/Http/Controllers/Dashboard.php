@@ -8,6 +8,10 @@ class Dashboard extends Controller
 {
     public function index()
     {
-        echo "Dashboard index";
+        $data = [
+            'webTitle' => 'My Organisasi',
+            'title'     => 'Dashboard'
+        ];
+        return view('admin.dashboard.dashboard', $data);
     }
 }

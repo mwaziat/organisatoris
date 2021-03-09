@@ -4,9 +4,6 @@ body {
     /* background: #9733EE !important; */
     height: 100%;
 }
-.content-login{
-
-}
 .box-login{
     position: absolute;
     height: 100%;
@@ -20,6 +17,7 @@ body {
 .jumbotron-login {
     background: #0000003d !important;
     padding-top:20px;
+    padding-bottom: 60px;
     border-radius: 10px;
     border: 2px solid #DA22FF;
     box-shadow: 0px 0px 15px 5px #DA22FF;
